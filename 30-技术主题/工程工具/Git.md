@@ -194,10 +194,10 @@ git pull 远程仓库 分支 --allow-unrelated-histories # 强制拉取并合并
 # 2.初始化本地仓库并指定默认分支为main
 git init -b main
 # 3.添加远程仓库地址
-git remote add 远程仓库名 远程仓库地址
+git remote add origin 远程仓库地址
 git remote -v # 查看所有远程库的别名
-git remote rename 旧远程仓库名 新远程仓库名 # 修改远程仓库名，记得更新本地分支的跟踪关系
-git remote set-url 远程仓库名 新URL # 修改指定远程仓库的地址
+git remote rename origin 新远程仓库名 # 修改远程仓库名，记得更新本地分支的跟踪关系
+git remote set-url origin 新URL # 修改指定远程仓库的地址
 # 4.创建并切换到该分支
 git branch 分支名 #创建
 git checkout 分支名 #切换
@@ -205,8 +205,8 @@ git checkout -b 分支名 #创建并切换
 git branch -m 旧分支名 新分支名 # 修改本地分支名
 git branch -d 分支名 # 安全删除本地分支
 git branch -D 分支名 # 强制删除本地分支
-git push 远程仓库名 --delete 分支名 # 删除远程分支
-git push 远程仓库名 --mirror # 强制覆盖远程仓库
+git push origin --delete 分支名 # 删除远程分支
+git push origin --mirror # 强制覆盖远程仓库
 # 5.向暂存区中添加或移除文件，“.”代表全部文件
 git add 文件 # 忽略.gitignore文件配置的目录及文件
 git rm --cached build/ # 移除本地对build文件夹的跟踪（不会删除本地实际文件，仅删除Git记录）
@@ -217,8 +217,7 @@ git push 远程仓库 远程分支
 git push -u 远程仓库 远程分支 # 推送并建立跟踪关系
 
 # 将已存在本地仓库推送到新建远程仓库
-git remote rename 旧远程仓库名 新远程仓库名
-git remote add 远程仓库名 远程仓库地址
+git remote add origin 远程仓库地址
 git push -u 远程仓库 --all # 推送本地仓库所有分支到远程仓库并建立跟踪关系。
 git push -u 远程仓库 --tags # 推送本地仓库所有标签到远程仓库，一般用不到
 ```
