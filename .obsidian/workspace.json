@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae43581a246070f6",
+        "id": "6408848a192e1e2b",
         "type": "tabs",
         "children": [
           {
-            "id": "fd81a9a58629d583",
+            "id": "c6f05354a59df935",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -170,31 +170,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd81a9a58629d583",
+  "active": "a30eeef600ddaced",
   "lastOpenFiles": [
-    "10-项目/阴曹地府.md",
-    "10-项目/啄木鸟司南护盾系统.md",
-    "10-项目/zom-engine/TODO.md",
-    "10-项目/zom-engine/注释审查.md",
-    "10-项目/zom-engine/提示词-deepseek.md",
-    "10-项目/zom-engine/代码审查.md",
+    "新建 文本文档.txt",
     "30-技术主题/机器学习/动手学深度学习/预备知识.md",
-    "30-技术主题/机器学习/线性回归.md",
     "30-技术主题/机器学习/动手学深度学习",
-    "10-项目/zom-engine",
-    "10-项目/Chat.md",
-    "10-项目/TerminalEmulator.md",
     "30-技术主题/机器学习/AI Agent.md",
-    "30-技术主题/Agent",
-    "30-技术主题/工程工具/Git.md"
+    "10-项目/zom-engine/注释审查.md",
+    "10-项目/zom-engine/代码审查.md",
+    "10-项目/zom-engine/TODO.md",
+    "10-项目/zom-engine",
+    "30-技术主题/工程工具/Git.md",
+    "30-技术主题/机器学习/线性回归.md"
   ]
 }
