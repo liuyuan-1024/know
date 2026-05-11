@@ -1,5 +1,5 @@
 {
-  "commitMessage": "obsidian 自动提交: {{date}}",
+  "commitMessage": "obsidian 提交于 {{date}}",
   "autoCommitMessage": "vault backup: {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
